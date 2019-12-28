@@ -8,13 +8,13 @@ import colorsys
 import random
 import time
 
-client = commands.Bot(command_prefix = '+', case_insensitive=True)
+client = commands.Bot(command_prefix = '?', case_insensitive=True)
 Client = discord.client
 Clientdiscord = discord.Client()
 
 @client.event
 async def on_ready():
-    print('Logged in as '+client.user.name+' (ID:'+client.user.id+') | Connected to '+str(len(client.servers))+' servers | Connected to '+str(len(set(client.get_all_members())))+' users')
+    print('Logged in as '+Ł€G€ŇĐ | σ℘💎ｲƲ丂んﾑ尺▄︻̷̿┻̿═━一+' (ID:'+617031165701914711+') | Connected to '+str(len(client.servers))+' servers | Connected to '+str(len(set(client.get_all_members())))+' users')
     print('--------')
     print('--------')
     print('Created by niloj')
